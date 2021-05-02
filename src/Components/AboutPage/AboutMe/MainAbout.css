@@ -1,0 +1,16 @@
+.text-app {
+    /* z-index: 0; */
+    color: #fff;
+    position: relative;
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    top:10%;
+    /* overflow: hidden; */
+    /* transform: translateY(60%); */
+}
+.check{
+    border:2px solid red;
+}

@@ -1,0 +1,29 @@
+.aboutme {
+    background-color: #000000;
+    /* border: 10px solid teal; */
+    height: 100%;
+    position: relative;
+    width: 100%;
+    padding: 0px!important;
+    margin: 0px!important;
+    /* background-image: url('../../../Images/download.png'); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+.middleMainAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.part {
+    object-fit: fill;
+    -o-object-fit: fill;
+    transform: translate(0%, -40%);
+    @media screen and (max-width: 500px) {
+        transform: translate(0%, -20%);
+    }
+    background-size: cover;
+    height: fit-content;
+    box-sizing: border-box;
+}
