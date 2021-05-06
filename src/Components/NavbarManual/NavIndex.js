@@ -6,17 +6,22 @@ import { GrLinkedin } from 'react-icons/gr'
 import { NavbarContainer, NavLogo, Nav, NavMenu, NavLinks, MobileIcon, NavItem,  NavBtn, NavBtnLink, SocialMenu } from './NavbarElement';
 
 const NavbarManual = ({toggle}) => {
+    var Scroll = require('react-scroll');
+    var scroll = Scroll.animateScroll;
+    const toggleHome=()=>{
+        scroll.scrollToTop();
+    }
     return (
         <>
             <Nav>
             <NavbarContainer>
-                    <NavLogo to="/">Kais</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>Kais</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about'>About</NavLinks>
+                            <NavLinks to='/about'>About</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="projects">Projects</NavLinks>

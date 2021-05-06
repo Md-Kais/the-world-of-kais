@@ -33,10 +33,15 @@ export const NavLogo = styled(LinkR)`
     cursor:pointer;
     font-size: 1.5rem;
     display:flex;
+    // color:red;
     align-items:center;
     margin-left:24px;
     font-weight:bold;
-    text-decoration:none;
+    // text-decoration:none;
+    &:hover{
+        text-decoration:none;
+        color:#01bf71;
+    }
 `
 export const MobileIcon = styled.div`
     display:none;
@@ -66,15 +71,26 @@ export const NavMenu = styled.ul`
 `
 export const NavItem = styled.li`
     height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
 
 `
 export const NavLinks = styled(LinkS)`
     color: #fff; 
+     margin-top: 20px;
     display:flex;
     align-items: center;
+    justify-content:center;
+    text-decoration:none;
     padding: 0 1rem;
+    font-weight:700;
      height: 100%;
-   cursor:pointer;
+    cursor:pointer;
+    &:hover{
+        text-decoration:none;
+        color:#01bf71;
+    }
     &.active{
         border-bottom:3px solid #01bf71;
     }

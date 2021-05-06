@@ -6,11 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    
     top:10%;
     /* overflow: hidden; */
     /* transform: translateY(60%); */
-}
-.check{
-    border:2px solid red;
 }

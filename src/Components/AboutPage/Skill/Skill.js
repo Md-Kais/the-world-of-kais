@@ -23,8 +23,8 @@ const Progress = ({ done }) => {
 
 const Skill = () => {
     return (
-        <div className="progresskept spaceKeep">
-            <h2 className="headline" style={{ color: "#fff", margin: '50px' }}><span style={{ color:"#F2709C"}}>____________</span>
+        <div className="progresskept">
+            <h2 className="headline" style={{ color: "#fff", margin:'50px' }}><span style={{ color:"#F2709C"}}>____________</span>
                 <span style={{ color: "#fff" }}>My Skill</span></h2>
             <div height="100%" width="50%" style={{ color: '#fff' }}></div>
         
