@@ -4,7 +4,7 @@ import { ImFacebook } from 'react-icons/im'
 import { GrInstagram, GrGithub } from 'react-icons/gr'
 import { GrLinkedin } from 'react-icons/gr'
 import { NavbarContainer, NavLogo, Nav, NavMenu, NavLinks, MobileIcon, NavItem,  NavBtn, NavBtnLink, SocialMenu } from './NavbarElement';
-
+import logo from '../../Images/logo1.jpg'
 const NavbarManual = ({toggle}) => {
     var Scroll = require('react-scroll');
     var scroll = Scroll.animateScroll;
@@ -15,25 +15,25 @@ const NavbarManual = ({toggle}) => {
         <>
             <Nav>
             <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>Kais</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}><img src={logo} alt="Kais" width="100px" height="50px"/> </NavLogo>
+                    
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='/about'>About</NavLinks>
+                            <NavLinks to="about-is-one" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400}><span></span>	<span></span><span></span><span></span>About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="projects">Projects</NavLinks>
+                            <NavLinks to="project-is-one" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400}><span></span>	<span></span><span></span><span></span>Projects</NavLinks>
+                        </NavItem>
+                      
+                        <NavItem>
+                            <NavLinks to="blog-is-one" activeClass="active" spy={true} smooth={true}
+                                offset={-80} duration={1400}><span></span>	<span></span><span></span><span></span>Blog</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="resume">Resume</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="blog">Blog</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="contact">Contact</NavLinks>
+                            <NavLinks to="contact" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400}><span></span>	<span></span><span></span><span></span>Contact</NavLinks>
                         </NavItem>
 
 

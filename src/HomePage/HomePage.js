@@ -6,11 +6,16 @@ import HomeSection from '../Components/HomeSection/HomeSection';
 import AboutMe from '../Components/AboutPage/AboutMe/AboutMe';
 import Skill from '../Components/AboutPage/Skill/Skill';
 import About from '../Components/AboutPage/About/About';
-import ContactForm from '../Components/Contact/Contact';
-import Blog from '../Components/Blog/Blog/Blog';
-import BlogCard from '../Components/Blog/BlogCard/BlogCard';
+
+
+
 import ProjectCard from '../Components/Project/ProjectCard/ProjectCard';
 import Project from '../Components/Project/Project/Project';
+import { Router,Route } from 'react-router';
+import Blog from '../Components/Blog/Blog';
+import Contact from '../Components/Contact/Contact';
+import Footer from '../Components/Footer/Footer';
+import BlogCard from '../Components/Blog/BlogCard/BlogCard';
 const HomePage = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -18,23 +23,25 @@ const HomePage = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <div>
-
+        <>
             <SidebarManual isOpen={isOpen} toggle={toggle}></SidebarManual>
             <NavbarManual toggle={toggle}></NavbarManual>
             {/* <AboutMe/>
            <Skill></Skill> */}
             <HomeSection ></HomeSection>
-            
-            <About path='about'></About>
-            <Project path='projects'></Project>
-            <ProjectCard></ProjectCard>
-            <Blog></Blog>
-            <BlogCard></BlogCard>
 
-            <ContactForm></ContactForm>
-        </div>
-    );
+
+            <About ></About>
+            <Project></Project>
+            <ProjectCard></ProjectCard>
+          <Blog></Blog>
+            <BlogCard></BlogCard>
+<Contact></Contact>
+<Footer></Footer>
+        </>
+
+    )
+  
 };
 
 export default HomePage;

@@ -3,7 +3,7 @@
     box-sizing: border-box;
 } */
 
-.progressKept {
+/* .progressKept {
     background-color: #f4f4f4;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -36,7 +36,7 @@
     opacity: 0;
    
     transition: 1.5s ease-in-out 0.3s;
-}
+}*/
 
 /* 
 .inlineStyle {
@@ -44,6 +44,7 @@
     justify-content: space-between;
 } */
 
+/*
 h5 {
     color: #fff;
 }
@@ -82,4 +83,20 @@ h5 {
         position: relative;
         padding: 20px;
     }
+} */
+
+.button-type-h6 {
+    display: flex;
+    padding: 13px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    border: 2px solid #01bf71;
+     border-radius: 10%;
+     color: #79b380;
+}
+
+h6 {
+    font-size: 18px;
 }

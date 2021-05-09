@@ -13,25 +13,26 @@ const SidebarManual = ({ isOpen, toggle }) => {
                     </CloseIcon>
                 </Icon>
                 <SidebarWrapper>
-                    <SidebarMenu>
-                        <SidebarLink to="about" onClick={toggle}>
+                    <SidebarMenu> 
+                        <SidebarLink to="about-is-one" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400}onClick={toggle}>
                             About
                         </SidebarLink>
-                        <SidebarLink to="project" onClick={toggle}>
+                        <SidebarLink to="project-is-one" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400} onClick={toggle}>
                             Project
                         </SidebarLink>
-                        <SidebarLink to="resume" onClick={toggle}>
+                        <SidebarLink to="resume-is-one" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400} onClick={toggle}>
                             Resume
                          </SidebarLink>
-                        <SidebarLink to="blog" onClick={toggle}>
+                        <SidebarLink to="blog-is-one" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400} onClick={toggle}>
                             Blog
                         </SidebarLink>
-                        <SidebarLink to="contact" onClick={toggle}>
+                        <SidebarLink to="contact" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400} onClick={toggle}>
                             Contact
                         </SidebarLink>
 
 
                     </SidebarMenu>
+                    <SidebarMenu>
                     <SideBtnWrap>
                         <SidebarRoute to={{ pathname: "https://web.facebook.com/kais.superb/" }} target="_blank" >
                             <ImFacebook />
@@ -46,6 +47,7 @@ const SidebarManual = ({ isOpen, toggle }) => {
                             <GrLinkedin />
                         </SidebarRoute>
                     </SideBtnWrap>
+                    </SidebarMenu>
                 </SidebarWrapper>
 
             </SidebarContainer>

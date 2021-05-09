@@ -22,14 +22,22 @@ const HomeSection = () => {
                 <HomeH1max>
                     <Typewriter
                         options={{
-                            strings: ['JavaScript  Developer', 'React  Developer', 'Competitive  Programmer','Redux  Developer', 'UI/UX  Designer'],
+                            strings: ['JavaScript  Developer', 'React  Developer','Redux  Developer', 'UI/UX  Designer'],
                             autoStart: true,
                             loop: true,
                         }}
                     />
                 </HomeH1max>
-                <HomeBtnWrap>  <button class="glow-on-hover" type="button" onClick={() => window.open("https://drive.google.com/file/d/1qOhePVFctZicXLmMoiOjebhiDcU13O9A/view?usp=sharing", "_blank")}>Download CV</button></HomeBtnWrap>
-              
+                <HomeBtnWrap>  
+                    <button class="glow-on-hover" type="button" onClick={() => window.open("https://drive.google.com/file/d/1qOhePVFctZicXLmMoiOjebhiDcU13O9A/view?usp=sharing", "_blank")}>Download CV</button></HomeBtnWrap>
+                    <br/>
+                <a href=" https://www.linkedin.com/in/md-kais-7a976b1b0/" target="_blank" className='hire-me'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                Hire Mee
+             </a>
             </HomeContent>
 
                

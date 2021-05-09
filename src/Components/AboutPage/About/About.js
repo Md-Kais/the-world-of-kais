@@ -5,7 +5,7 @@ import NavbarManual from '../../NavbarManual/NavIndex';
 import SidebarManual from '../../SidebarManual/SideIndex'
 const About = () => {
     return (
-        <div>
+        <div id="about-is-one">
             
             {/* <NavbarManual></NavbarManual>
             <SidebarManual></SidebarManual> */}

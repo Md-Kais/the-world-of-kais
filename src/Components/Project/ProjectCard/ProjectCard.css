@@ -1,4 +1,4 @@
-.project {
+/* .project {
     position: relative;
     transition: 0.3s;
 }
@@ -32,4 +32,12 @@
 
 .card:hover .card-action {
     display: block;
+} */
+
+.DarkDark {
+    background: #000015;
+}
+
+.new-line {
+    white-space: pre-line;
 }

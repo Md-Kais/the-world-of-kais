@@ -5,19 +5,17 @@ import MainAbout from './MainAbout';
 const AboutMe = () => {
     return (
         <>
-        <div className="aboutme">
+      
                
                 
             <div className="middleMainAbout">
                     <MainAbout ></MainAbout>
             </div>
 
-            <div className="part">
-                    <ParticleBackground ></ParticleBackground>
-            </div>
+           
 
 
-        </div>
+      
         </>
     );
 };

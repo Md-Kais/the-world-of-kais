@@ -16,5 +16,22 @@
     justify-content: center;
     max-width: 100vw;
     align-items: center;
-   /* height: 100vh; */
+    /* height: 100vh; */
+}
+
+.part {
+    object-fit: fill;
+    -o-object-fit: fill;
+    transform: translate(0%, -40%);
+    @media screen and (max-width: 500px) {
+        transform: translate(0%, -20%);
+    }
+    background-size: cover;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.head-middle {
+text-align: center;
+margin:20px;
 }

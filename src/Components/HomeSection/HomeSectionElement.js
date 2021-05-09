@@ -36,6 +36,15 @@ export const HomeContent = styled.div`
    display:flex;
    flex-direction:column;
    align-items:flex-start;
+  @media screen and (max-width: 768px){
+    padding:10px 24px;
+  }
+  @media screen and (min-width: 768px){
+   padding:5px 10px;
+  }
+  @media screen and (max-width: 480px){
+    padding:2px 0px;
+  }
 
 `
 
@@ -47,7 +56,7 @@ export const HomeH1=styled.h1`
   @media screen and (max-width: 768px){
     font-size: 56px;
   }
-  @media screen and (max-width: 768px){
+  @media screen and (min-width: 768px){
     font-size: 52px;
   }
 `
@@ -57,8 +66,8 @@ export const HomeH1max = styled.h1`
    @media screen and (max-width: 768px){
     font-size: 54px;
   }
-  @media screen and (max-width: 768px){
-    font-size: 46px;
+  @media screen and (min-width: 768px){
+    font-size: 50px;
   }
   
 `

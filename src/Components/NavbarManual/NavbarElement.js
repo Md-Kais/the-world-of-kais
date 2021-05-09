@@ -4,7 +4,7 @@ import { Link as LinkR } from 'react-router-dom'
 export const Nav = styled.nav`
     background: #000;
     height: 80px;
-    margin-top:-80px;
+     margin-top:-80px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -31,7 +31,7 @@ export const NavLogo = styled(LinkR)`
     color:#fff;
     justify-self:flex-start;
     cursor:pointer;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display:flex;
     // color:red;
     align-items:center;
@@ -45,7 +45,7 @@ export const NavLogo = styled(LinkR)`
 `
 export const MobileIcon = styled.div`
     display:none;
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1200px){
         display:block;
         color:#fff;
         position:absolute;
@@ -64,7 +64,7 @@ export const NavMenu = styled.ul`
     text-align:center;
     cursor: pointer;
     margin-right:-22px;
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1200px){
         display:none;
     }
 
@@ -78,7 +78,7 @@ export const NavItem = styled.li`
 `
 export const NavLinks = styled(LinkS)`
     color: #fff; 
-     margin-top: 20px;
+    //  margin-top: 20px;
     display:flex;
     align-items: center;
     justify-content:center;
@@ -89,7 +89,7 @@ export const NavLinks = styled(LinkS)`
     cursor:pointer;
     &:hover{
         text-decoration:none;
-        color:#01bf71;
+        color:#000120;
     }
     &.active{
         border-bottom:3px solid #01bf71;
@@ -100,10 +100,13 @@ export const NavBtn = styled.nav`
     margin: auto 0;
     cursor:pointer;
     margin-right:10px;
-    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+   
     align-items:center;
     justify-content:center;
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1200px){
         display:none;
     }
 `
@@ -135,7 +138,7 @@ export const SocialMenu = styled.ul`
     justify-content:space-between;
     margin: auto 0;
     margin-right:10px;
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1200px){
         display:none;
     }
 

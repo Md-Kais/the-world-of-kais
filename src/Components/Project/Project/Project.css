@@ -1,0 +1,13 @@
+@media screen and (max-width:800px) {
+    .marginProjectName {
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .marginProjectName {
+        margin-left: 50px;
+        margin-top: 45px;
+    }
+}

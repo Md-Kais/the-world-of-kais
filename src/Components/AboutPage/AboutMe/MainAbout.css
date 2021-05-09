@@ -1,13 +1,46 @@
-.text-app {
-    /* z-index: 0; */
-    color: #fff;
-    position: relative;
-    /* max-width: 100%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    top:10%;
-    /* overflow: hidden; */
-    /* transform: translateY(60%); */
+.middle {
+    text-align: left;
+    /* border: 10px solid red; */
+}
+
+h5 {
+    color: aliceblue;
+}
+
+/* .before-I-forget-that::before {
+    content: "";
+    position: realtive;
+    top: 100px;
+    left: 80px;
+    width: 3px;
+    height: 40px;
+    background-color: rgba(110, 173, 118, .5);
+    border-radius: 100px;
+} */
+
+.before-I-forget-that {
+    border-left: 3px solid rgba(44, 175, 61, 0.5);
+    padding-left: 10px;
+    padding-bottom: 1px;
+    margin-right: 10px;
+}
+
+.gapp {
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+@media screen and (max-width:800px) {
+    .middle {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .middle {
+        margin-left: 40px;
+    }
 }

@@ -6,23 +6,25 @@ import HomePage from './HomePage/HomePage';
 import AboutPage from './Components/AboutPage/AboutPage';
 import About from './Components/AboutPage/About/About';
 import Switch from 'react-bootstrap/esm/Switch';
+import Project from './Components/Project/Project/Project';
 function App() {
   return (
-  
-     <Router>
-  
+    <Router>
+
       <Route>
         <HomePage></HomePage>
 
       </Route>
-      <Route path="/about">
+      {/* <Route path="/about">
 
         <About></About>
-      </Route>
+      </Route> */}
     </Router>
 
 
-  
+   
+
+
 
 
 

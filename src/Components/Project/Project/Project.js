@@ -1,10 +1,12 @@
 import React from 'react';
-
+import './Project.css'
 const Project = () => {
     return (
-        <div className="mt-5 ms-auto me-auto" style={{ textAlign: 'center' }}>
-            <p className="text-primary boldText" style={{ textAlign: 'center' }}>My Project</p>
-            <h4 className="mainTextCol mb-4" style={{ textAlign: 'center' , color:"#fff" }}>From My Project Library</h4>
+        <div id="project-is-one">
+            <div className="marginProjectName">
+               
+                <h1 className="mainTextCol mb-4" style={{ color: "#fff" }}>&lt;Project&gt;</h1>
+            </div>
         </div>
 
 
