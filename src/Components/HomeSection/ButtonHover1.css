@@ -160,4 +160,8 @@ a:hover span:nth-child(4) {
 }
 .hire-me{
     color: #fff !important;
+    text-decoration: none;
+}
+#resume{
+    color:#fff;
 }
