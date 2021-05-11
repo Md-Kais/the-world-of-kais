@@ -3,7 +3,7 @@ import AboutMe from './AboutMe/AboutMe';
 import Skill from './Skill/Skill';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AboutPage.css'
-import ParticleBackground from '../../ParticleBackgroud';
+
 const AboutPage = () => {
     return (
         <div className="aboutpage">

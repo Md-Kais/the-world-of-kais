@@ -35,7 +35,7 @@ h3 {
 
 @media screen and (max-width:800px) {
     .middle {
-        margin-left: 5px;
+        margin-left: 5px!important;
     }
 }
 
@@ -43,4 +43,12 @@ h3 {
     .middle {
         margin-left: 40px;
     }
+}
+
+.changeanchor {
+    text-decoration: none!important;
+    margin: 0 0!important;
+    text-transform: lowercase;
+    padding: 0px!important;
+   
 }

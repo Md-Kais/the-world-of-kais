@@ -3,10 +3,11 @@ import React from 'react';
 import { ImFacebook } from 'react-icons/im'
 import { GrInstagram, GrGithub } from 'react-icons/gr'
 import { GrLinkedin } from 'react-icons/gr'
-import { NavbarContainer, NavLogo, Nav, NavMenu, NavLinks, MobileIcon, NavItem, NavBtn, NavBtnLink, SocialMenu } from '../../NavbarManual/NavbarElement';
-import './MainAbout.css'
+import { NavItem, NavBtn, NavBtnLink, SocialMenu } from '../../NavbarManual/NavbarElement';
+import './MainAbout.css';
 
 const MainAbout = () => {
+  
     return (
 //  className="custom-subTitle center_all" style={{ paddingLeft: '5%' ,overflow:'hidden'}
         <div className="middle">
@@ -19,7 +20,10 @@ const MainAbout = () => {
             <br />
             <div className="before-I-forget-that">
                 <h3>Email</h3>
-                <h5>mdkais3@gmail.com</h5>
+             
+                <a className="changeanchor" href="mailto:mdkais3@gmail.com">  <h5 style={{ color: 'aqua' }}>mdkais3@gmail.com</h5></a>
+                  
+               
             </div>
             <div className="gapp"></div>
             <div className="before-I-forget-that">

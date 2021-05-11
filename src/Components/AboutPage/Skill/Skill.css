@@ -93,10 +93,23 @@ h5 {
     margin-right: 10px;
     word-wrap: break-word;
     border: 2px solid #01bf71;
-     border-radius: 10%;
-     color: #79b380;
+    border-radius: 10%;
+    color: #79b380;
 }
 
 h6 {
     font-size: 18px;
+}
+
+@media screen and (max-width:800px) {
+    .middle {
+        margin-left: 5px;
+       
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .middle {
+        margin-left: 40px;
+    }
 }

@@ -3,7 +3,7 @@ import { CloseIcon,  Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarRo
 import { ImFacebook } from 'react-icons/im'
 import { GrInstagram, GrGithub } from 'react-icons/gr'
 import { GrLinkedin } from 'react-icons/gr'
-import { FaFacebook } from 'react-icons/fa';
+
 const SidebarManual = ({ isOpen, toggle }) => {
     return (
         <>
@@ -13,6 +13,8 @@ const SidebarManual = ({ isOpen, toggle }) => {
                     </CloseIcon>
                 </Icon>
                 <SidebarWrapper>
+                    <br/>
+                    <br/>
                     <SidebarMenu> 
                         <SidebarLink to="about-is-one" activeClass="active" spy={true} smooth={true} offset={-80} duration={1400}onClick={toggle}>
                             About

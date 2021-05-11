@@ -11,7 +11,7 @@ export const SidebarContainer = styled.div`
    background: #0d0d0d;
    display:grid;
    align-items:center;
-   top: 0;
+   top: 0px;
    left: 0;
    transition: 0.3s ease-in-out;
    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};

@@ -19,7 +19,7 @@
     /* height: 100vh; */
 }
 
-.part {
+/* .part {
     object-fit: fill;
     -o-object-fit: fill;
     transform: translate(0%, -40%);
@@ -29,7 +29,7 @@
     background-size: cover;
     height: fit-content;
     box-sizing: border-box;
-}
+} */
 
 .head-middle {
 text-align: center;
