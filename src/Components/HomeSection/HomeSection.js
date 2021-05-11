@@ -1,7 +1,8 @@
 import React from 'react';
 import Videomax from '../../Videos/videomaxpro.mp4'
 import Typewriter from 'typewriter-effect';
-import { HomeBg,HomeP, HomeBtnWrap, HomeContainer, HomeContent, HomeH1, HomeH1max, VideoBg } from './HomeSectionElement';
+import kais from '../../Images/kais.jpg'
+import { HomeBg,HomeP, HomeBtnWrap, HomeContainer, HomeContent, HomeH1, HomeH1max } from './HomeSectionElement';
 import './ButtonHover1.css'
 const HomeSection = () => {
 
@@ -14,7 +15,8 @@ const HomeSection = () => {
    
             </video>
             </HomeBg>
-            <HomeContent>
+          
+            <HomeContent className='screenFlex'>
                 <HomeP>Hello World!</HomeP>
                 <br/>
                 <HomeH1> I am Md. Kais</HomeH1>
@@ -38,9 +40,11 @@ const HomeSection = () => {
                     <span></span>
                 Hire Mee
              </a>
+                
+              
             </HomeContent>
 
-               
+          
            
         </HomeContainer>
     );

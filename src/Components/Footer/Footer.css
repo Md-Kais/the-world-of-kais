@@ -31,12 +31,10 @@
 .site-footer a {
     color: #737373;
     font-size: 14px;
-    
-    
 }
 
 .site-footer a:hover {
-    color:aliceblue;
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -67,7 +65,7 @@
     text-align: right
 }
 
- .social-icons a {
+.social-icons a {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -79,9 +77,9 @@
 
 .copyright-text {
     margin: 0;
-    
 }
-.no-Margin{
+
+.no-Margin {
     padding: 0px!important;
     margin: 0px!important;
     text-align: center;
@@ -118,7 +116,7 @@
     text-transform: uppercase;
     color: #96a2b2;
     font-weight: 700;
-    font-size: 13px
+    font-size: 20px
 }
 
 .social-icons a {
@@ -127,8 +125,8 @@
     font-size: 16px;
     display: inline-block;
     line-height: 44px;
-    width: 44px;
-    height: 44px;
+    width: 54px;
+    height: 54px;
     text-align: center;
     margin-right: 8px;
     border-radius: 100%;
@@ -162,13 +160,19 @@
 }
 
 .social-icons a.instagram:hover {
-    background-color: #cb4adcd0
+    background-color: #913499
 }
 
-@media (max-width:767px) {
+@media (max-width:1000px) {
     .social-icons li.title {
         display: block;
         margin-right: 0;
         font-weight: 600
     }
+}
+
+.screenResizer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

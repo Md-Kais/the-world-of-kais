@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import './ProjectCard.css'
-import Fade from 'react-reveal/Fade';
+
 
 const projects = [{
     _id: 1, name: "Digital Device Servicings", live_site: " https://digital-device-servicing.web.app/", github: "https://github.com/Md-Kais/digital-device_servicing_client", description: `• A website for Technician store where user can repair their electronic devices.\n• Users and Admin can sign up and log in to this website using google.Anyone cannot go to some pages without login, which is developed by React Router.\n• There are dashboards for User and Admin.\n• Admin can check their work progress and user check their order progress.\n• Front - end Technology: Material Ui, React.js, HTML5, CSS3. \n• Back - end Technology: NODE.js, Express.js, MongoDB \n`, img: "https://i.ibb.co/kHWyvVn/servicing.png", category: "MERN",

@@ -16,14 +16,14 @@ const Footer = () => {
             <footer className="site-footer">
 
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-8 col-sm-6 col-xs-12">
+                    <div className="row screenResizer">
+                        <div className="col-md-6 col-sm-12">
                             <p className="copyright-text">Copyright &copy; {new Date().getFullYear()} All Rights Reserved by
          <a href="https://drive.google.com/file/d/1qOhePVFctZicXLmMoiOjebhiDcU13O9A/view" target="_blank" className="no-Margin"> &nbsp;	 Md. Kais</a>.</p>
           
                         </div>
 
-                        <div className="col-md-4 col-sm-6 col-xs-12">
+                        <div className="col-md-6 col-sm-12">
                             <ul className="social-icons">
                                 <li><a className="facebook" href="https://web.facebook.com/kais.superb/" target="_blank"><i className="fa fa-facebook"></i></a></li>
                                 <li><a className="github" href="https://www.github.com/Md-kais"  target="_blank"><i className="fa fa-github"></i></a></li>

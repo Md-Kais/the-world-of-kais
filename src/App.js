@@ -3,10 +3,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import HomePage from './HomePage/HomePage';
-import AboutPage from './Components/AboutPage/AboutPage';
-import About from './Components/AboutPage/About/About';
-import Switch from 'react-bootstrap/esm/Switch';
-import Project from './Components/Project/Project/Project';
+
 function App() {
   return (
     <Router>

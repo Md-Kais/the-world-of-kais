@@ -35,6 +35,7 @@ export const HomeContent = styled.div`
    padding:8px 24px;
    display:flex;
    flex-direction:column;
+   justify-content:space-between;
    align-items:flex-start;
   @media screen and (max-width: 768px){
     padding:10px 24px;
