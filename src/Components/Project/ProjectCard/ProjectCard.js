@@ -22,6 +22,7 @@ and buy them.Website will remember user’s previous cart. \n • Users and Admi
 
 ];
 const ProjectCard = () => {
+   
     return (
         <>
             <div className="container">
@@ -30,10 +31,11 @@ const ProjectCard = () => {
                         projects.map((e) => {
                             return (
                                 <>
-                                    <div className="col-lg-7 ">
+                                    <div className="col-lg-7">
                                         <img className="img-fluid" src={e.img} alt={e.name} width="98%" height="auto" style={{ borderRadius: "20px" }} />
                                     </div>
                                     <div className=" col-lg-5 mt-2">
+                                        
                                         <Card style={{ width: '100%', borderRadius: "20px" }}>
 
                                             <Card.Body className="DarkDark" style={{ borderRadius: "20px" }}>

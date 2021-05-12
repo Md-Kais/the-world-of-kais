@@ -29,6 +29,7 @@ const cardInfo = [
     }
 ]
 const BlogCard = () => {
+    let i=0;
     return (
         <>
             <div className="container">
@@ -36,7 +37,8 @@ const BlogCard = () => {
                     {
                         cardInfo.map((e) => {
                             return (
-                                <div className="col-md-12 col-lg-4 mt-3" style={{ display: 'flex', justifyContent: 'center' }}>
+                                <div className="col-md-12 col-lg-4 mt-3" style={{ display: 'flex', justifyContent: 'center' }} key={i}>
+                                    {i++}
                                     <Card className="borderDark" style={{ width: '100%' }}>
 
                                         <Card.Body className="blog-back">

@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogCard from './BlogCard/BlogCard';
+
 
 const Blog = () => {
     return (

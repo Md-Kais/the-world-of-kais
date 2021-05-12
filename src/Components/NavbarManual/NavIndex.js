@@ -15,7 +15,7 @@ const NavbarManual = ({toggle}) => {
         <>
             <Nav>
             <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}><img src={logo} alt="Kais" width="100px" height="50px"/> </NavLogo>
+                    <NavLogo to="/" onClick={toggleHome} style={{ display: 'flex', alignItems: 'center', padding: '0px', margin: '0px' }}><img style={{ cursor: 'pointer'}} src={logo} alt="Kais" width="100px" height="32.756px"/> </NavLogo>
                     
                     <MobileIcon onClick={toggle}>
                         <FaBars />
