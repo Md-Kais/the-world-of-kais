@@ -30,9 +30,11 @@ const Skill = () => {
                 <div style={{ display: "flex", flexFlow: 'row wrap' }}>
                     <h6 className="button-type-h6">JavaScript</h6>
                     <h6 className="button-type-h6">C++</h6>
+                    <h6 className="button-type-h6">TypeScript</h6>
                     <h6 className="button-type-h6">Python</h6>
                     <h6 className="button-type-h6">HTML</h6>
                     <h6 className="button-type-h6">CSS</h6>
+                    
                 </div>
             </div>
             <div className="gapp"></div>
@@ -45,6 +47,7 @@ const Skill = () => {
                     <h6 className="button-type-h6">Next.JS</h6>
                     <h6 className="button-type-h6">Bootstrap</h6>
                     <h6 className="button-type-h6">Material-UI</h6>
+                    <h6 className="button-type-h6">React Native</h6>
 
                 </div>
             </div>

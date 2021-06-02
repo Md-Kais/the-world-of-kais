@@ -1,15 +1,46 @@
 {
-  "short_name": "Kais Portfolio",
-  "name": "Kais Dev",
+  "short_name": "Md. Kais",
+  "name": "Kais Portfolio App",
   "icons": [
     {
-      "src": "klogo.jpg",
+      "src": "logoWeb 120.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "120x120",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logoWeb 144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logoWeb 152.png",
+      "type": "image/png",
+      "sizes": "152x152",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logoWeb 192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logoWeb 167.png",
+      "type": "image/png",
+      "sizes": "167x167",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logoWeb 512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#5CDB95",
   "background_color": "#ffffff"
 }

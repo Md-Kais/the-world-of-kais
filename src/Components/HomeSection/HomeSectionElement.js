@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+
+import { Link as LinkR } from 'react-router-dom';
 export const HomeContainer = styled.div` 
     background:"#0c0c0c";
     display:flex;
@@ -90,4 +92,29 @@ export const HomeP = styled.p`
   @media screen and (max-width: 768px){
     font-size: 22px;
   }
+`
+export const SideBtnWrap = styled.div` 
+
+    display:flex;
+    justify-content:center;
+    aligh-items:center;
+    margin:auto 0;
+`
+export const SidebarRoute = styled(LinkR)`
+    border-radius: 50px;
+  
+    background: #01bf71;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #010606;
+    font-size:16px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    transition:all 0.2s ease-in-out;
+    text-decoration:none;
+    &.active{
+        border-bottom: 3px solid #01bf71;
+    }
+
 `

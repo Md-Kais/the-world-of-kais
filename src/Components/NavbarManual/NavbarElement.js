@@ -85,7 +85,7 @@ export const NavLinks = styled(LinkS)`
     text-decoration:none;
     padding: 0 1rem;
     font-weight:700;
-     height: 100%;
+    height: 100%;
     cursor:pointer;
     &:hover{
         text-decoration:none;
@@ -114,7 +114,7 @@ export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;
-    padding: 10px 22px;
+    padding: 8px 22px;
     color: #010606;
     font-size:16px;
     outline:none;
@@ -138,7 +138,7 @@ export const SocialMenu = styled.ul`
     justify-content:space-between;
     margin: auto 0;
     margin-right:10px;
-    @media screen and (max-width:1000px){
+    @media screen and (max-width:968px){
         display:none;
     }
 
