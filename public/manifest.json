@@ -1,6 +1,11 @@
 {
-  "short_name": "Md. Kais",
-  "name": "Kais Portfolio App",
+  "short_name": "Kais",
+  "name": "Md. Kais Portfolio App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#5CDB95",
+  "description": "A depressed programmer named Kais build this. Currently,He is MERN Stack developer and learns about React Native.Sometimes, he joins some programming contest buy can't solve everything.then, he get depressed and makes some app.",
+  "background_color": "040d14",
   "icons": [
     {
       "src": "logoWeb 120.png",
@@ -38,9 +43,5 @@
       "sizes": "512x512",
       "purpose": "any maskable"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#5CDB95",
-  "background_color": "#ffffff"
+  ]
 }

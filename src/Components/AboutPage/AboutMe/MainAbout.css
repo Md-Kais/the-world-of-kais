@@ -4,7 +4,7 @@
 }
 
 h5 {
-    color: aliceblue;
+    color: var(--text--dark);
 }
 
 /* .before-I-forget-that::before {
@@ -30,7 +30,7 @@ h5 {
 }
 
 h3 {
-    color: aliceblue;
+    color: var(--text--dark);
 }
 
 @media screen and (max-width:800px) {

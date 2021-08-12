@@ -101,15 +101,16 @@ h6 {
     font-size: 18px;
 }
 
-@media screen and (max-width:800px) {
+/* @media screen and (max-width:768px) {
     .middle {
-        margin-left: 5px;
+        margin-left: auto;
        
     }
 }
 
-@media only screen and (min-width: 800px) {
+
+@media only screen and (min-width: 768px) {
     .middle {
         margin-left: 40px;
     }
-}
+} */

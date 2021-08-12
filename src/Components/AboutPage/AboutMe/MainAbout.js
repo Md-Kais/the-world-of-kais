@@ -10,7 +10,7 @@ const MainAbout = () => {
   
     return (
 //  className="custom-subTitle center_all" style={{ paddingLeft: '5%' ,overflow:'hidden'}
-        <div className="middle">
+        <div>
           <br/>
             <h5> First of all, I would love to introduce myself as a curious learner who always trying to learn something new.I am always ready to learn any technology or programming language.</h5>
            <br/>

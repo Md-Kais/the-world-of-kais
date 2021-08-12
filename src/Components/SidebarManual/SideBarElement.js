@@ -59,6 +59,10 @@ export const SidebarLink = styled(LinkS)`
     text-decoration:none;
     color:#fff;
     cursor: pointer;
+    // &:hover{
+    //     text-decoration:none;
+    //     color:#000120;
+    // }
 
     &:hover{
         text-decoration: none;
@@ -86,8 +90,13 @@ export const SidebarRoute = styled(LinkR)`
     cursor:pointer;
     transition:all 0.2s ease-in-out;
     text-decoration:none;
-    &.active{
-        border-bottom: 3px solid #01bf71;
+    // &.active{
+    //     border-bottom: 3px solid #01bf71;
+    // }
+    &:hover{
+        text-decoration:none;
+        font-weight:500;
+        color:#000120;
     }
 
 `

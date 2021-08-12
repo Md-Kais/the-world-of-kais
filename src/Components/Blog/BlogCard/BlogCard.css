@@ -1,3 +1,11 @@
-.blog-back{
-    background: #131921;
+.blog-back {
+  background-color: rgb(0, 0, 7);
+  /* background: #131921; */
+  color: rgb(24, 143, 255) !important;
+}
+.text-secondary {
+  color: rgb(24, 143, 255) !important;
+}
+.changedH3 {
+  color: rgb(193, 255, 255);
 }

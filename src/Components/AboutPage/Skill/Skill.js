@@ -23,8 +23,8 @@ import './Skill.css'
 
 const Skill = () => {
     return (
-        <div className="middle">
 
+        <div>
             <div className="before-I-forget-that">
                 <h3>Programming Languages</h3>
                 <div style={{ display: "flex", flexFlow: 'row wrap' }}>
@@ -34,7 +34,7 @@ const Skill = () => {
                     <h6 className="button-type-h6">Python</h6>
                     <h6 className="button-type-h6">HTML</h6>
                     <h6 className="button-type-h6">CSS</h6>
-                    
+
                 </div>
             </div>
             <div className="gapp"></div>
@@ -79,9 +79,9 @@ const Skill = () => {
 
                 </div>
             </div> <div className="gapp"></div>
-
-
         </div>
+
+
     )
 };
 

@@ -39,12 +39,12 @@ const BlogCard = () => {
                             return (
                                 <div className="col-md-12 col-lg-4 mt-3" style={{ display: 'flex', justifyContent: 'center' }} key={i}>
                                     
-                                    <Card className="borderDark" style={{ width: '100%' }}>
+                                    <Card className="borderDark" style={{ width: '100%',borderRadius:"20px" }}>
 
-                                        <Card.Body className="blog-back">
+                                        <Card.Body className="blog-back" style={{ borderRadius: "20px" }}>
                                          
                                             <Card.Text className="mb-4">
-                                                <h3 className="boldText mainTextCol">{e.highlightedText}</h3>
+                                                <h3 className="boldText mainTextCol changedH3">{e.highlightedText}</h3>
                                                 <h6 style={{ color:'hsla(0,0%,100%,0.5)'}}>{e.date}</h6>
                                                 <p className="text-secondary">{e.description}
                                        </p>

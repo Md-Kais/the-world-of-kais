@@ -4,6 +4,7 @@
     height: 100%;
     position: relative;
     width: 100%;
+    color: var(--bg--dark);
     padding: 0px!important;
     margin: 0px!important;
     /* background-image: url('../../../Images/download.png'); */
