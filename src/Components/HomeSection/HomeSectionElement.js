@@ -158,3 +158,20 @@ export const SidebarRoute = styled(LinkR)`
     }
 
 `
+
+export const HideLinkTree = styled.span`
+  @media screen and (max-width: 376px){
+    display:none;
+  }
+`
+
+export const ShowLinkTree = styled.span`
+  @media screen and (max-height: 460px){
+    display:none;
+  }
+`
+export const HideFacebook = styled.span`
+  @media screen and (max-width: 300px){
+    display:none;
+  }
+`
