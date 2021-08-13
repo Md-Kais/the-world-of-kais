@@ -29,6 +29,9 @@ const Footer = () => {
                     <br />
 
                 </div>
+                <div style={{fontSize:"0.23rem", display: "flex", justifyContent: "flex-end",margin:"1px",paddingRight:"10px"}}>
+                    <small style={{fontSize:"0.23rem",color:"#bbccff",display: "flex",justifyContent:"flex-end"}}>This website is installable in any device</small>
+               </div>
             </footer>
 
 

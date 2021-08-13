@@ -1,25 +1,29 @@
 import React from 'react';
-import Videomax from '../../Videos/videomaxpro.mp4'
+import Videomax from '../../Videos/video-0.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 // import 'react-simple-typewriter/dist/index.css'
 // import Typewriter from 'typewriter-effect';
 import { ImFacebook } from 'react-icons/im'
-import { GrInstagram, GrGithub} from 'react-icons/gr'
+import { GrInstagram, GrGithub } from 'react-icons/gr'
 import { GrLinkedin } from 'react-icons/gr'
 
 import { HomeBg, HomeP, HomeBtnWrap, HomeContainer, HomeContent, HomeH1, HomeH1max, SideBtnWrap, SidebarRoute } from './HomeSectionElement';
-import './ButtonHover1.css'
+import './ButtonHover1.css';
 import { FaTree } from 'react-icons/fa';
 const HomeSection = () => {
 
     return (
+
         <HomeContainer >
             <HomeBg>
 
-                <video loop autoPlay style={{ 'width': "100%", "height": "100%", "objectFit": 'cover', "background": "#232a34", " OObjectFit": 'cover' }}>
-                    <source src={Videomax} type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                <img src={Videomax} alt="Background" style={{ 'width': "100vw", "height": "100vh", "objectFit": 'cover', "background": "#232a34", " OObjectFit": 'cover' }} />
+                {/* <source src={Videomax} type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 
-                </video>
+                </video> */}
+                {
+
+                }
             </HomeBg>
 
             <HomeContent className='screenFlex'>
@@ -71,14 +75,16 @@ const HomeSection = () => {
                     <SidebarRoute to={{ pathname: "https://linktr.ee/k_a_i_s" }} target="_blank">
                         <FaTree />
                     </SidebarRoute>
-                </SideBtnWrap>
+                </SideBtnWrap>&nbsp;&nbsp;
 
 
             </HomeContent>
-
-
-
+            <a href="#about-is-one">
+                <div class="scroll-down"></div>
+            </a>
         </HomeContainer >
+
+
     );
 };
 

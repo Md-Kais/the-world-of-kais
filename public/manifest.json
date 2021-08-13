@@ -5,7 +5,7 @@
   "display": "standalone",
   "theme_color": "#5CDB95",
   "description": "A depressed programmer named Kais build this. Currently,He is MERN Stack developer and learns about React Native.Sometimes, he joins some programming contest buy can't solve everything.then, he get depressed and makes some app.",
-  "background_color": "040d14",
+  "background_color": "#040d14",
   "icons": [
     {
       "src": "logoWeb 120.png",
